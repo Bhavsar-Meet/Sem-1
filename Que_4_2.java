@@ -4,15 +4,15 @@ public class Que_4_2
 {
 	static BinaryTreeNode buildMinimalTree(int[] array)
 	{
-		if(array.length == 0)
-			return null;
+		if(array.length == 0){
+			return null;}
 		return recursivebuildMinimalTree(array,0,array.length-1);
 	}
 
 	static BinaryTreeNode recursivebuildMinimalTree(int[] array , int start , int end)
 	{
-		if(end<start)
-			return null;
+		if(end<start){
+			return null;}
 		int mid = (end+start)/2;
 		BinaryTreeNode node = new BinaryTreeNode(array[mid]);
 		node.left = recursivebuildMinimalTree(array,start,mid-1);
