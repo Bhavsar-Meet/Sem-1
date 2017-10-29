@@ -13,8 +13,8 @@ public class BinaryTreeNode
 
 	static void inorderTraversal(BinaryTreeNode node)
 	{
-		if(node == null)
-			return;
+		if(node == null){
+			return;}
 		inorderTraversal(node.left);
 		System.out.println(node.data);
 		inorderTraversal(node.right);
