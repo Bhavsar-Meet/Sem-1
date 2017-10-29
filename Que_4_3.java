@@ -5,8 +5,9 @@ public class Que_4_3
 	public static ArrayList<LinkedList<BinaryTreeNode>> listOfDepths(BinaryTreeNode head)
 	{
 		ArrayList<LinkedList<BinaryTreeNode>> resultList = new ArrayList<LinkedList<BinaryTreeNode>>();
-		if(head == null)
+		if(head == null){
 			return resultList;
+		}
 
 		LinkedList<BinaryTreeNode> current = new LinkedList<BinaryTreeNode>();
 
