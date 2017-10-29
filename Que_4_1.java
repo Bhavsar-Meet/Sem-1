@@ -10,6 +10,6 @@ public class Que_4_1
 
 	public static void main(String[] args)
 	{
-		System.out.println("Here");
+		System.out.println("Inside main");
 	}
 }
